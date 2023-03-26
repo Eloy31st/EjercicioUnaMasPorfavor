@@ -24,6 +24,7 @@ return bisect (med,max);
 
 a) ¿Qué calcula la llamada a la función recursiva bisect(0,N)? Si cambiamos el
 valor de N, ¿qué estaríamos calculando? ¿Y si cambiásemos la función f(x)?
+
 La llamada a la funcion recursiva bisect(0,N) calcula la raiz de la función f(x) dividiendo repetidamente el intervalo[min,max] por la mitad y comprobando si esta cambia de signo en med o en alguno de los subintervalos y se vuelve a ejecutar el metodo con un intervalo más pequeño. A esto se le llama método de bisección.
 Si cambiaramos N, estariamos calculando la raiz cuadrada del nuevo número porque el método bisección busca la raiz de la N de la función f(x) en el intervalo[min,max], entonces, si N fuera 4 este método calcularía la raiz de 4.
 Si cambiásemos la función f(x), el método bisección calcularía la raíz de esta nueva función pero para ello habría que asegurarse de que cumpliese ciertos requesitos para que devuelva el resultado correcto como ser continua y que tenga cambios de signo en el intervalo que se introduzca.
