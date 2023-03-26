@@ -41,9 +41,9 @@ a) Dado un número cualquiera x, ¿qué nos muestra por pantalla la llamada a la
 recursiva f(x,2)? ¿Cuál sería un nombre más adecuado para la función f?
 b) Implemente un algoritmo iterativo y uno implementado mediante expresiones lambda
 equivalentes.
-# 3. Construya una función que convierta un número decimal en una cadena que represente el
+## 3. Construya una función que convierta un número decimal en una cadena que represente el
 valor del número en hexadecimal (base 16). A continuación, generalice la función para
-convertir un número decimal en un número en base B (con B<10). Resuélvalo mediante expresiones lambda. #
+convertir un número decimal en un número en base B (con B<10). Resuélvalo mediante expresiones lambda. ##
 Recordatorio: El cambio de base se realiza mediante divisiones sucesivas por 16
 en las cuales los restos determinan los dígitos hexadecimales del número según
 la siguiente correspondencia:
@@ -52,8 +52,8 @@ Dígito 0 1 2 3 4 5 6 7 8 9 A B C D E F
 Por ejemplo:
 65029|10 = FE05|16
 # 4. Implemente, tanto de forma recursiva como de forma iterativa, una función que nos diga
-si una cadena de caracteres es simétrica (un palíndromo). Por ejemplo,
-“DABALEARROZALAZORRAELABAD” es un palíndromo. #
+# si una cadena de caracteres es simétrica (un palíndromo). Por ejemplo,
+# “DABALEARROZALAZORRAELABAD” es un palíndromo. 
 
 # 5. Implemente, tanto de forma recursiva como de forma iterativa y con expresiones lambda, una función que nos devuelva el máximo común divisor de dos números enteros
 utilizando el algoritmo de Euclides. #
