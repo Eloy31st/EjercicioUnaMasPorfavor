@@ -46,6 +46,8 @@ f(num,div+1);
 
 a) Dado un número cualquiera x, ¿qué nos muestra por pantalla la llamada a la función
 recursiva f(x,2)? ¿Cuál sería un nombre más adecuado para la función f?
+La función recursiva f(x,2) imprime todos los factores primos de x. Esto surge de que la función comprueba que x sea mayor que 1, si es así, esta comprueba si x % 2 = 0. Si esto es correcto, se imprime 2 ya que es su primer factor primo y se llama a la función nuevamente pero x siendo x/2 y el divisor sigue siendo 2 para comprobar si tiene algun otro factor primo igual a 2. Si x % 2 no es igual a 0, se llama a la función nuevamente para calcular los demás factores primos de x ya que ya se ha comprobado que 2 ya no es un factor primo de esa x.
+Un nombre más adecuado sería calculoFactoresPrimos o simplemente factoresPrimos porque así se daría más información a quién utilice el método de que hace exactamente debido a que el nombre "f" es muy genérico y no explica el funcionamiento de la función.
 
 b) Implemente un algoritmo iterativo y uno implementado mediante expresiones lambda
 equivalentes.
