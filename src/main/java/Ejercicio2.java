@@ -1,7 +1,6 @@
 import java.util.function.IntBinaryOperator;
 import java.util.function.IntConsumer;
 import java.util.function.IntUnaryOperator;
-import java.util.stream.IntStream;
 
 public class Ejercicio2 {
 
