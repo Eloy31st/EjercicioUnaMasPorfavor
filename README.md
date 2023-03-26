@@ -2,7 +2,7 @@
 
 Mi repositorio: https://github.com/Eloy31st/EjercicioUnaMasPorfavor.git
 
-Ejercicios repaso
+# Ejercicios repaso
 # 1. Dado el siguiente fragmento de código C:
 static final double N = 2;
 static final double PREC = 1e-6;
